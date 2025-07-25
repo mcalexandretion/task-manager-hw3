@@ -45,7 +45,7 @@ npm run dev
 ### Использование
 - Откройте `http://localhost:5173` в браузере.
 - Создавайте, редактируйте или удаляйте задачи через интерфейс.
-- Используйте фильтры для поиска задач по заголовку, дате, статусу, категории или приоритету.
+- Используйте фильтры для поиска задач по заголовку, дате.
 
 ### Технологии и подходы
 Сервер:
@@ -77,7 +77,11 @@ npm run dev
 - Темы: Светлая/темная тема на базе MUI с использованием контекста.
 
 ## Скриншоты
-<img   alt="image" src="https://github.com/user-attachments/assets/e6096458-4fff-4f83-b866-b8d51577f050" />
-<img   alt="image" src="https://github.com/user-attachments/assets/e3cd0dcb-69a2-43ac-93ca-9b036f8d4cdc" />
-<img   alt="image" src="https://github.com/user-attachments/assets/7dd5c576-52f9-4cdc-bd18-97f7a67fb88a" />
+<p align="center"> <img width="1896" height="899" alt="image" src="https://github.com/user-attachments/assets/ad82b0de-832d-4db7-ab91-54b3e47c1f3e" /> </p>
+<p align="center"> <img width="1900" height="899" alt="image" src="https://github.com/user-attachments/assets/62a7f009-856e-4a8c-b62a-191935cd4d30" />
+</p>
+<p align="center"><img width="619" height="617" alt="image" src="https://github.com/user-attachments/assets/41b3553c-61aa-4cde-b8b0-6597eb971588" />
+</p>
+<p align="center"><img width="724" height="613" alt="image" src="https://github.com/user-attachments/assets/bd895ce7-2ae3-41af-9d8f-bc5fef85e7d3" />
+</p>
 
