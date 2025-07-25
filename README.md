@@ -75,3 +75,9 @@ npm run dev
 - Управление состоянием: Локальное состояние (useState) для форм и списка, с сохранением темы в localStorage.
 - Маршрутизация: React Router для навигации между списком задач и формой.
 - Темы: Светлая/темная тема на базе MUI с использованием контекста.
+
+## Скриншоты
+<img   alt="image" src="https://github.com/user-attachments/assets/e6096458-4fff-4f83-b866-b8d51577f050" />
+<img   alt="image" src="https://github.com/user-attachments/assets/e3cd0dcb-69a2-43ac-93ca-9b036f8d4cdc" />
+<img   alt="image" src="https://github.com/user-attachments/assets/7dd5c576-52f9-4cdc-bd18-97f7a67fb88a" />
+
