@@ -61,45 +61,7 @@ export const TaskList = () => {
           variant="outlined"
           className={styles.formControl}
         />
-        <FormControl className={styles.formControl}>
-          <InputLabel>Status</InputLabel>
-          <Select
-            value={filters.status || ''}
-            onChange={(e) => setFilters({ ...filters, status: e.target.value as TaskStatus })}
-            variant="outlined"
-          >
-            <MenuItem value="">All</MenuItem>
-            {Object.values(TaskStatus).map((status) => (
-              <MenuItem key={status} value={status}>{status}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <FormControl className={styles.formControl}>
-          <InputLabel>Category</InputLabel>
-          <Select
-            value={filters.category || ''}
-            onChange={(e) => setFilters({ ...filters, category: e.target.value as TaskCategory })}
-            variant="outlined"
-          >
-            <MenuItem value="">All</MenuItem>
-            {Object.values(TaskCategory).map((category) => (
-              <MenuItem key={category} value={category}>{category}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-        <FormControl className={styles.formControl}>
-          <InputLabel>Priority</InputLabel>
-          <Select
-            value={filters.priority || ''}
-            onChange={(e) => setFilters({ ...filters, priority: e.target.value as TaskPriority })}
-            variant="outlined"
-          >
-            <MenuItem value="">All</MenuItem>
-            {Object.values(TaskPriority).map((priority) => (
-              <MenuItem key={priority} value={priority}>{priority}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
+
         <Button variant="contained" color="primary" onClick={() => navigate('/new')}>
           Add Task
         </Button>
